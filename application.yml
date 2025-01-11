@@ -1,0 +1,6 @@
+token:
+  expiration_time: 86400000 # 24 hours
+  secret: default
+
+gateway:
+  ip: 192.168.249.240
