@@ -11,3 +11,6 @@ spring:
     driver-class-name: org.h2.Driver
     username: sa
     password: '{cipher}AYBKgI9R2wAwOcmEWGubjQRjTLnWsazA2OymKy1SbTMf03iwdlgWmbnW38f3RW+28DOTWKq/axV8VP3ImmzqOtbyDjj0VL2dLI5uUPTq73yKWgJLPjLtOekfOdT6MvqG/z1NUJHNJngsBc0EgjUCqLDu+XYp2Mdrrx0VV/L+AmWIgQDyBGZDDUgj+/uwvaLTRlDo9JnpgQ97WnjbqCxePXMQ40na2I24SHhR5eEXrD0LPbPhwGUcnEJfTmkQoTfiMeIJDCpwzwiw12CUEuceyOKtAhOEi9qKTKu0FWRWHMlkvbZM+Pjjows6YqufYbZaNa2KfiXiYvMqUQFTZWkURt4QYw4q3E3A3OC5sM4DD2G+BVaPycvYRTKXOi/mRWDcTTYHrG1mRIi76FFRhq4E173lfAA7QFz74fAGVb/2luDM+I0jLtJx91W0VPR6WO4I8umCtPnqC/NDhJGQTDS3qdRGXo+HKKn6JlZI19KObq6B0BwACHdAXzht00Yy5g0747cXMGI1GsK5PnJRz2pR541n75s+Uvfcs1kTMzY+Yxf4rA=='
+
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
