@@ -8,6 +8,6 @@ gateway:
 server:
   port: 443
   ssl:
-    key-store: classpath:${user.home}/Documents/msa/keystore/apiEncryptionKey.jks
+    key-store: ${user.home}/Documents/msa/keystore/apiEncryptionKey.jks
     key-store-password: '{cipher}AYAjOjGB/JHhjBHJiQKQyot4AfaIDf2GUoDmrFm5S9MLs1C0W56BEbcHiICJ/pTLS7jBwdCFmdnNUPnMPFvJzn/4qRj8cD6aZqq2v5yGpzx/nAPCs+7JRslqxjCm5op14Wtx1RLzCzDJRI+29WJ94Ft9lceHbJfjf7jsSwt6P3XRlsm5y/kjXrnZT8NGgR8HJYg7U6PT1jD/QYRX6wiUKoPifIn2ERgIoI93z4rZF+0uKOes4/njwVSE8unMUnQ6RPA3D2VElW1PxtV2Xlj9lROpk7OFvaUZiagyjThDSVhYN8Qx+k1z9QX42qVODz3ra7EofeChtxKwbRo8EJkgVdL4vgKzGRH2a5aj0mGHMQhY67KWdaekAbw5OO92TqctmK9OoJNKjCchVRl0CxAFq2U8iSxWp2bBoI7s7tZS00OYyk6jhIRFBSJy37zmCUZjWmtkO/4B/3K/pR+Qpw9ZIhwhYja98hoZUh9Qpem8k6ihZZer95CxOzlXtWvwcUQ5q/SfE5JLp6o/h1HYu1qvZAWmWO78uWLw/SDf6ZGxZxT6EA=='
     key-alias: apiEncryptionKey
